@@ -24,9 +24,6 @@
     }
 }
 @media (max-width:575px){
-    .track{
-        margin-left: 110px;
-    }
     .customers h3{
             font-size: 30px;
         }
