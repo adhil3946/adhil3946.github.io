@@ -7,7 +7,6 @@ header{
 }
 .header{
         display: flex;
-    width: 100%;
     padding: 10px;
     height: max-content;
     justify-content: space-between;
@@ -20,7 +19,7 @@ header{
 .nav-menu{
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     width: max-content;
@@ -44,9 +43,8 @@ display: flex;
 } 
 .nav-b{
     display: flex;
-    margin-left: 20px;
     width: max-content;
-    gap: 10px;
+    gap: 5px;
 }
 .call{
     text-decoration: none;
