@@ -273,11 +273,16 @@ width: 100%;
     border-radius: 20px;
 }
 .profession h3{
+    margin-top: 15px;
+    font-size: 41px;
+}
+.profession p{
+    font-size: 17px;
     margin-top: 10px;
 }
 .profession:hover{
     background-color: #6339a6;
-    color: aliceblue;
+    color: white;
 }
 .detail-icon img{
     transition: .8s;
