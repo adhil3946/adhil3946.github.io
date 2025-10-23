@@ -773,31 +773,6 @@ margin-left: 20px;
 .no-data-found p{
     margin-top: 10px;
 }
-.slide{
-    overflow-x: auto;
-    overflow-y:hidden;
-    width: 100%;
-    height: 100%;
-  margin-top: 20px;
-}
-.group{
-    display: flex;
-    gap: 10px;
-    animation: spin 20s infinite linear;
-
-}
-@keyframes spin{
-    from {translate: 0;}
-    to {translate: -100%;}
-}
-.group-slide{
-    display:flex;
-    gap: 20px;
-}
-.slide-image{
-padding-bottom: 50px;
-padding-top: 100px;
-}
 .profession h3{
 font-size: 30px;
 }
@@ -807,4 +782,62 @@ font-size: 30px;
 }
 .details h3{
 font-size: 35px;
+}
+.slide-img img{
+position: relative;
+width: 100%;
+height: 100%;
+}
+.sea-freiht{
+    color: white;
+    background-color: #4d2c8179;
+position: absolute;
+bottom: 10px;
+left: 10px;
+border-radius:0px 10px 10px 0px ;
+padding: 10px;
+text-align: center;
+line-height: 1px;
+}
+.arrow img{
+     width: 20px;
+}
+.arrows img{
+    width: 20px;
+}
+
+.slide-img{
+    padding: 10px;
+}
+.float{
+    margin-top: 100px;
+}
+.slide{
+    position: relative;
+}
+.arrow{
+position: absolute;
+left: 0px;
+bottom: 40%;
+z-index: 100;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0.59);
+padding: 20px;
+ border: 2px solid  rgba(0, 0, 0, 0.59) ;
+}
+.arrows{
+position: absolute;
+border-radius: 10px;
+background-color:  rgba(0, 0, 0, 0.59);
+padding: 20px;
+right: 0;
+bottom: 40%;
+ border: 2px solid  rgba(0, 0, 0, 0.59) ;
+z-index: 100;
+}
+.arrows:focus{
+    border: 2px solid rgb(215, 142, 115);
+}
+.arrow:focus{
+    border: 2px solid rgb(215, 142, 115);
 }
