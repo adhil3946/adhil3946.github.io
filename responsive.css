@@ -36,4 +36,10 @@
         .get{
             width: 100%;
         }
+        .banner h1{
+            font-size: 26px;
+        }
+        .banner p{
+            font-size: 14px;
+        }
 }
