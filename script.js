@@ -1,8 +1,8 @@
-
-const navbarToggle = document.querySelector('.navbar-toggle');
-const navbarmenu = document.querySelector('.nav-menu');
-
-navbarToggle.addEventListener('click', () =>{
-    navbarToggle.classList.toggle('active');
-    navbarmenu.classList.toggle('active');
+$(document).ready(function(){
+ $('.navbar-toggle').click(function(){
+    $(this).toggleClass('active')
+ })
+ $('.navbar-toggle').click(function(){
+    $('.nav-menu').toggleClass('active')
+ })
 });

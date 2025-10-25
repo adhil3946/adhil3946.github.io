@@ -104,7 +104,16 @@ color: aliceblue;
     height: 3px;
     margin: 5px auto;
     background:orangered;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-toggle.active .barr:nth-child(1){
+transform: translateY(10px) rotate(45deg);
+}
+.navbar-toggle.active .barr:nth-child(2){
+opacity: 0;
+}
+.navbar-toggle.active .barr:nth-child(3){
+transform: translateY(-6px)rotate(-45deg);
 }
 .calll{
      text-decoration: none;
@@ -331,7 +340,7 @@ width: 100%;
     border-radius: 20px;
     border: 2px solid #412966;
     transition: 0.5s; 
-    width: 100%;
+    width: 100%;padding: 10px;
 }
 .shipping-item:hover{
     border: 2px solid orangered;
@@ -350,6 +359,7 @@ width: 100%;
 .shipping-item h5{
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 .part{
     display: flex;
@@ -428,6 +438,7 @@ width: 100%;
     gap: 10px;
     flex-wrap: wrap;
 }
+
 .flag{
     background-color: #412966;
     padding: 10px;
