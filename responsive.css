@@ -1,5 +1,6 @@
 @media (max-width:990px) {
      .nav-menu{
+        
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -22,9 +23,6 @@
         display: flex;
         padding-top: 10px;
     }
-    .nav-menu{
-    display: flex;
-}
 }
 @media (max-width:575px){
     .customers h3{
@@ -32,9 +30,6 @@
         }
         .customers p{
             font-size: 14px;
-        }
-        .nav-menu{
-            display: none;
         }
         .get{
             width: 100%;
@@ -45,7 +40,4 @@
         .banner p{
             font-size: 14px;
         }
-         .nav-menu.active{
-    display: flex;
-}
 }
